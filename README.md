@@ -80,7 +80,7 @@ Four languages are kept on both sides - English, Română, Srpski (lat.) and С�
 
 - **Description:** Private single-file unit converter: 11 international categories plus Romanian and Serbian land measures, 4 languages, shareable links, offline HTML. Nothing is uploaded.
 - **Homepage / live:** **[https://tekideki.github.io/Unit-Converter/](https://tekideki.github.io/Unit-Converter/)**
-- **Topics:** `unit-converter`, `single-file`, `vanilla-javascript`, `zero-dependencies`, `offline`, `privacy`, `github-pages`, `multilingual`
+- **Topics:** `unit-converter`, `single-file`, `vanilla-javascript`, `zero-dependencies`, `offline`, `privacy`, `github-pages`, `multilingual`, `apache-2-0`
 
 ## License
 
