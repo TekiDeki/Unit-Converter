@@ -41,6 +41,20 @@ GitHub Pages serves this repository from `main`, repository root: **https://teki
 
 `sw.js` caches the shell (`./` and `./index.html`) under the **`atlas-v1`** cache with network-first navigation and an offline fallback. Increase the cache version when changing `index.html`.
 
+### Verify the deployment
+
+```sh
+# online: the page, the service worker and the sitemap are served
+curl -sI https://tekideki.github.io/Unit-Converter/ | head -1
+curl -sI https://tekideki.github.io/Unit-Converter/sw.js | head -1
+curl -s  https://tekideki.github.io/Unit-Converter/sitemap.xml
+
+# the hub keeps the short address as a 302 redirect to this deployment
+curl -sI https://freehtml.dev/convert | grep -i location
+```
+
+Offline: after one visit the service worker serves the shell from the `atlas-v1` cache, so the app opens without a network. The suite in "Tests" switches the browser context offline and checks exactly that, and the downloaded HTML works straight from `file://`, with no service worker at all.
+
 ## Tests
 
 ```sh
@@ -56,4 +70,6 @@ The suite checks 787 conversion round trips, reference values, number parsing, a
 
 ## Project home
 
-The card, the tools list, the shortcuts table and the documentation for this app live in [TekiDeki/TekiDeki](https://github.com/TekiDeki/TekiDeki); the application file itself now lives here.
+The card, the tools list, the shortcuts table and the documentation for this app live in [TekiDeki/TekiDeki](https://github.com/TekiDeki/TekiDeki); the application file itself now lives here. That repository no longer ships a copy of the app: `freehtml.dev/convert/` is only a redirect to this deployment.
+
+Four languages are kept on both sides - English, Română, Srpski (lat.) and Српски (ѕир.) - and the wording uses "-", never the long dash.
