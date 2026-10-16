@@ -1,0 +1,7 @@
+{
+  "name": "unit-atlas-tests",
+  "private": true,
+  "description": "Development-only browser tests for Unit Atlas. The shipped app has zero dependencies.",
+  "scripts": {"test": "node tests/unit-atlas.cjs"},
+  "devDependencies": {"@axe-core/playwright": "4.14.0", "playwright": "1.64.1"}
+}
