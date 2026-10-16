@@ -2,9 +2,9 @@
 
 **A world of measures. Made simple.** A private, single-file unit converter by [TekiDeki](https://github.com/TekiDeki).
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
+**[Open app: https://tekideki.github.io/Unit-Converter/](https://tekideki.github.io/Unit-Converter/)** · [freeHTML.dev hub](https://freehtml.dev/) · [Apache-2.0](LICENSE)
 
-**[https://tekideki.github.io/Unit-Converter/](https://tekideki.github.io/Unit-Converter/)** · [freeHTML.dev hub](https://freehtml.dev/)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE) [![Live demo](https://img.shields.io/badge/live-demo-success?style=flat-square&logo=githubpages&logoColor=white)](https://tekideki.github.io/Unit-Converter/) [![Languages](https://img.shields.io/badge/languages-4%20(EN%C2%B7RO%C2%B7SR%C2%B7%D0%A1%D0%A0)-purple?style=flat-square)](#features) [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](#run-locally)
 
 ## Features
 
