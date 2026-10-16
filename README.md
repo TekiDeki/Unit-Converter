@@ -2,7 +2,9 @@
 
 **A world of measures. Made simple.** A private, single-file unit converter by [TekiDeki](https://github.com/TekiDeki).
 
-**[Open app](https://tekideki.github.io/Unit-Converter/)** · [freeHTML.dev hub](https://freehtml.dev/)
+**[Open app: https://tekideki.github.io/Unit-Converter/](https://tekideki.github.io/Unit-Converter/)** · [freeHTML.dev hub](https://freehtml.dev/) · [Apache-2.0](LICENSE)
+
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE) [![Live demo](https://img.shields.io/badge/live-demo-success?style=flat-square&logo=githubpages&logoColor=white)](https://tekideki.github.io/Unit-Converter/) [![Languages](https://img.shields.io/badge/languages-4%20(EN%C2%B7RO%C2%B7SR%C2%B7%D0%A1%D0%A0)-purple?style=flat-square)](#features) [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)](#run-locally)
 
 ## Features
 
@@ -72,4 +74,14 @@ The suite checks 787 conversion round trips, reference values, number parsing, a
 
 The card, the tools list, the shortcuts table and the documentation for this app live in [TekiDeki/TekiDeki](https://github.com/TekiDeki/TekiDeki); the application file itself now lives here. That repository no longer ships a copy of the app: `freehtml.dev/convert/` is only a redirect to this deployment.
 
-Four languages are kept on both sides - English, Română, Srpski (lat.) and Српски (ѕир.) - and the wording uses "-", never the long dash.
+Four languages are kept on both sides - English, Română, Srpski (lat.) and Српски (ћир.) - and the wording uses "-", never the long dash.
+
+## Repository metadata
+
+- **Description:** Private single-file unit converter: 11 international categories plus Romanian and Serbian land measures, 4 languages, shareable links, offline HTML. Nothing is uploaded.
+- **Homepage / live:** **[https://tekideki.github.io/Unit-Converter/](https://tekideki.github.io/Unit-Converter/)**
+- **Topics:** `unit-converter`, `single-file`, `vanilla-javascript`, `zero-dependencies`, `offline`, `privacy`, `github-pages`, `multilingual`
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
