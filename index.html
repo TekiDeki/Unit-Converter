@@ -24,6 +24,15 @@
 @media(max-width:680px){.wrap{padding:0 16px}.top{min-height:74px;gap:8px}.brand{gap:8px}.brand strong{font-size:16px}.brand small{font-size:9px}.mark{width:32px;height:34px}.tools select{width:116px;font-size:12px;padding:8px}.theme{padding:6px 10px}.hero{padding:29px 0 25px}.hero h1{font-size:34px;letter-spacing:-1.2px}.hero p{font-size:13px}.workspace{display:block}.sidebar{padding:10px;margin-bottom:16px}.sidebar .eyebrow{display:none}.search{margin-bottom:8px}.categories{display:flex;overflow:auto;gap:5px;padding-bottom:4px}.category{flex-shrink:0;padding:8px 12px;min-height:39px;border:1px solid var(--line);font-size:12px}.category .symbol{width:auto;font-size:13px}.category.regional{margin:0;border:1px solid var(--line);border-radius:8px;padding:8px 12px}.fields{grid-template-columns:minmax(0,1fr) 36px minmax(0,1fr);gap:7px}.swap{width:36px;min-height:36px;font-size:20px}.converter{padding:17px}.amount{font-size:24px;padding:10px;height:65px}.field select{font-size:12px;padding:10px 7px}.card-top{padding:16px}.card-top h2{font-size:17px}.category-count{font-size:10px}.result{padding:18px;margin-top:19px}.result-line{font-size:30px}.actions{gap:6px}.actions button{padding:8px 11px}.precision{width:100%;margin-top:5px}.lower{gap:16px;margin-top:16px}.bottom{flex-direction:column;gap:12px;margin-top:26px}.quick{padding-top:17px}td,th{padding:11px 17px}}
 @media(prefers-reduced-motion:no-preference){button,a{transition:background .15s,border-color .15s}.result{transition:background .2s}}
 @media print{header,.sidebar,.actions,.quick,.bottom,.saved-card,.swap,.hint,.status{display:none}.workspace,.lower{display:block}.wrap{padding:0}.hero{padding:20px 0}body{background:white;color:black}.card{box-shadow:none;margin-bottom:20px}.table-scroll{max-height:none;overflow:visible}:root{--ink:#111;--muted:#444;--accent:#234514;--panel:white;--bg:white;--soft:#eef3e9;--line:#aaa}.result-line{font-size:30px}}
+
+  /* regula casei: tinte de atingere pe mobil */
+  @media (pointer: coarse), (max-width: 700px) {
+    button, .quick button, .section-head button { min-height: 34px; display: inline-flex; align-items: center; }
+    #clear { min-height: 34px; display: inline-flex; align-items: center; }
+    #about { min-height: 34px; display: inline-flex; align-items: center; }
+    #download { min-height: 34px; display: inline-flex; align-items: center; }
+    a { min-height: 34px; display: inline-flex; align-items: center; }
+  }
 </style>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
